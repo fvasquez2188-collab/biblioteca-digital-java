@@ -1,0 +1,99 @@
+/* Reset básico */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fondo degradado */
+body{
+    min-height:100vh;
+    background: linear-gradient(135deg, #7ec8ff, #ffffff);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+}
+
+/* Contenedor principal */
+.container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    text-align:center;
+    width:90%;
+    max-width:500px;
+}
+
+/* Titulos */
+h1,h2,h3{
+    color:black;
+    margin-bottom:20px;
+}
+
+/* Formularios */
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* Inputs */
+input{
+    padding:10px;
+    border:2px solid #003366;
+    border-radius:5px;
+    font-size:16px;
+}
+
+/* Botones */
+button{
+    padding:10px;
+    background:#003366;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#002244;
+}
+
+/* Tablas */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th, td{
+    padding:10px;
+    border-bottom:2px solid #003366;
+    text-align:center;
+}
+
+th{
+    background:#e6f3ff;
+}
+
+/* Responsivo */
+@media (max-width:768px){
+
+    .container{
+        width:95%;
+        padding:20px;
+    }
+
+    table{
+        font-size:14px;
+    }
+
+    input,button{
+        font-size:14px;
+    }
+
+}
