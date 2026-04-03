@@ -55,13 +55,13 @@ http://localhost:8080/BibliotecaDigital
 
 ## futuras mejoras
 
--Implementar autenticación con base de datos (login real con usuarios)
--CRUD completo de libros (crear, editar, eliminar)
--Búsqueda de libros por título o autor
--Sistema de roles (admin / usuario)
--Mejorar interfaz con Bootstrap o CSS moderno
--Convertir el proyecto a Maven
--Agregar pruebas unitarias (JUnit)
+- Implementar autenticación con base de datos (login real con usuarios)
+- CRUD completo de libros (crear, editar, eliminar)
+- Búsqueda de libros por título o autor
+- Sistema de roles (admin / usuario)
+- Mejorar interfaz con Bootstrap o CSS moderno
+- Convertir el proyecto a Maven
+-   Agregar pruebas unitarias (JUnit)
 
 ## Autor
 
